@@ -1,0 +1,14 @@
+AT
+
+AT+CMGDA="DEL ALL"      // delete all read and unread msg
+
+AT+CMGL="ALL"           // read all msg 
+
+ATA    // receiving a call
+
+ATH    // disconnect a call
+
+AT+CNMI=2,2,0,0,0            // LIVE MSG READING
+
++CMT: "+917827988768","","18/03/24,17:30:49+22"<CR><LF>
+
